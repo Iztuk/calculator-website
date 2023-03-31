@@ -1,0 +1,277 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+}
+
+.calculatorBody {
+    display: flex;
+    height: 550px;
+    width: 400px;
+    border: 2px solid black;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+    .calculatorContents {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 350px;
+    }
+
+        .calculatorScreen {
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            width: 350px;
+            border: 2px solid black;
+            background-color: white;
+        }
+
+            .firstLine {
+                display: flex;
+                height: 50px;
+                padding-top: 12.5px;
+                padding-right: 5px;
+                justify-content: right;
+                font-size: 30px;
+            }
+
+            .secondLine {
+                display: flex;
+                height: 50px;
+                padding-top: 12.5px;
+                padding-right: 5px;
+                justify-content: right;
+                font-size: 30px;
+            }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            gap: 10px;
+        }
+
+            .firstRowBtn {
+                display: flex;
+                height: 66px;
+                justify-content: center;
+                gap: 10px;
+            }
+
+                .clearBtn {
+                    display: flex;
+                    width: 170px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+                .deleteBtn {
+                    display: flex;
+                    width: 170px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+            .secondRowBtn {
+                display: flex;
+                height: 66px;
+                justify-content: center;
+                gap: 10px;
+            }
+
+                .sevenBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .eightBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .nineBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .divideBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+            .thirdRowBtn {
+                display: flex;
+                height: 66px;
+                justify-content: center;
+                gap: 10px;
+            }
+
+                .fourBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .fiveBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .sixBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .multiplyBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+            .fourthRowBtn {
+                display: flex;
+                height: 66px;
+                justify-content: center;
+                gap: 10px;
+            }
+
+                .oneBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .twoBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .threeBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .subtractBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+            .fifthRowBtn {
+                display: flex;
+                height: 66px;
+                justify-content: center;
+                gap: 10px;
+            }
+
+                .periodBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .zeroBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .equalsBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+                .additionBtn {
+                    display: flex;
+                    width: 82.5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: larger;
+                    border: 2px solid black;
+                    border-radius: 10px;
+                }
+
+.footer {
+    padding-top: 200px;
+}
